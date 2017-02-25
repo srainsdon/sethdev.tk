@@ -5,4 +5,5 @@ as well as work things out. it will be my test bed.
 
 ## I am working on things
 
- almost have the deploy system working
+ almost have the deploy system working.
+ still working on it.
