@@ -58,6 +58,13 @@ print $q->h1('Your ID is '.$1);
 print $q->end_html();
 };
 
+GET qr{^/book/(\d{1,5})$} => sub {
+print $q->header(-status=>200, -type=>'text/html');
+print $q->start_html(-title=>$apititle, -style=>$apistyle);
+print $q->h1('Your Book is '.$1);
+print $q->end_html();
+};
+
 # Unmatched REST
 GET qr{^/(.+)$} => sub {
 # Nothing handles this, throw back a standard 404
