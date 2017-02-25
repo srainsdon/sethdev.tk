@@ -7,5 +7,3 @@ as well as work things out. it will be my test bed.
 
  almost have the deploy system working.
  still working on it.
- 
-  wish it would just work
